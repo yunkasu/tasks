@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.new-task {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.new-task input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.new-task button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+#task-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#task-list li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+#task-list li input[type="checkbox"] {
+  margin-right: 10px;
+}
